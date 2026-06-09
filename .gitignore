@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 内部企画メモ（非公開）
+TIsAllYouNeed.md

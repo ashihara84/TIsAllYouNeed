@@ -1,0 +1,24 @@
+# 用語集（第7巻）
+
+- **素手（NumPy）実装**: PyTorch を使わず、順伝播・損失・逆伝播・更新をすべて手で書くこと。第2章で1回だけ行う。
+- **autograd**: PyTorch の自動微分。順伝播を計算グラフに記録し、`loss.backward()` で勾配を自動計算する。
+- **計算グラフ**: どの値がどの演算でどこから作られたかの記録。`backward()` で逆向きにたどる。
+- **requires_grad**: そのテンソルについて勾配を計算してほしいという印。`nn` の層のパラメータは既定で True。
+- **`loss.backward()`**: 損失から全パラメータへの勾配を一括で計算する。素手の逆伝播全体がこの一行になる。
+- **zero_grad**: 溜まる勾配を消す。毎ステップ呼ぶ。`optimizer.zero_grad()`。
+- **no_grad / eval / train**: `no_grad` はグラフ記録を止める（推論・生成）。`eval()`/`train()` は Dropout 等のモード切替。
+- **nn.Module**: モデルや部品の基底クラス。`__init__` で部品、`forward` で流れ。パラメータは自動登録。
+- **register_buffer**: 学習しないがモデルに属するテンソル（causal mask など）を登録する仕組み。
+- **文字レベル言語モデル**: トークンを文字とする言語モデル。文字＝トークン（第4巻3章）。
+- **block_size（系列長 L）**: 一度にモデルが見る文字数。文脈の長さ。
+- **batch_size（B）**: まとめて流す区間の数。
+- **ターゲット（次の文字）**: 入力を1文字後ろにずらしたもの。各位置の正解（第4巻7章の自己教師）。
+- **トークン埋め込み / 位置埋め込み**: 文字 ID をベクトルに（第4巻5章）、位置の情報を足す（第5巻9章。この巻は学習版）。
+- **Multi-Head Attention（causal）**: 未来を見ない Multi-Head Attention（第5巻6〜7章）。GPT の中核。
+- **Pre-LN**: `x + Sublayer(LayerNorm(x))`。LayerNorm を先にかける形。この巻で採用（第5巻11章）。
+- **小さな GPT（SmallGPT）**: embedding ＋ Transformer ブロック ＋ 出力層からなる、Decoder-only の言語モデル。
+- **出力層（head）**: `d_model → vocab_size` の線形層。各位置で次の文字のロジットを出す。
+- **AdamW**: Transformer の学習で定番の optimizer（第2巻11章・第3巻7章）。
+- **temperature**: 生成時にロジットを割る値。小さいと手堅く、大きいと多様（第2巻8章）。
+- **サンプリング（multinomial）**: 確率分布から次の文字を1つ選ぶこと。貪欲より自然で多様な生成になる。
+- **Decoder-only**: Encoder を持たず Decoder だけの構成。現代の GPT 系の基本形（第8巻で回収）。

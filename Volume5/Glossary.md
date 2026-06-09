@@ -1,0 +1,24 @@
+# 用語集（第5巻）
+
+- **Attention（注意機構）**: 各トークンが全トークンとの相性に応じて情報を集める仕組み。核は「重み付き和」。
+- **重み付き和**: 複数のベクトルを、合計1の重みで混ぜ合わせること。Attention の核。
+- **Query（Q）**: 「こういう情報が欲しい」という問い合わせ。各トークンから線形変換で作る。
+- **Key（K）**: 各トークンの「見出し」。Query と照合されて相性スコアになる。
+- **Value（V）**: 各トークンの「中身」。相性に応じて取り出され、重み付き和で混ぜられる。
+- **QK^T**: 全トークン対の相性スコアを一度に計算する行列積。shape は `[L, L]`。
+- **スケール付き内積 Attention**: `softmax(QK^T / sqrt(d_k)) V`。Transformer の中心式。
+- **sqrt(d_k) で割る**: スコアが大きくなりすぎて softmax がとがり勾配が消えるのを防ぐスケーリング。
+- **Self-Attention**: 同じ入力から Q・K・V すべてを作る使い方。各トークンが系列全体に注目する。
+- **Cross-Attention**: Q を一方の系列、K・V を別の系列から作る使い方。翻訳など。第6巻で登場。
+- **causal mask（因果マスク）**: 未来のトークンへの注目を禁じるマスク。softmax 前にスコアを `-inf` にする。下三角だけ残す。
+- **ヘッド（head）**: 並列に走らせる1つの Attention。複数のヘッドで異なる観点に注目する。
+- **Multi-Head Attention**: `d_model` を `h` 個のヘッドに分割し、各ヘッドで Attention して結合する仕組み。
+- **位置エンコーディング（positional encoding）**: Attention が知らない順序の情報を、位置ごとのベクトルとして embedding に足すこと。
+- **sin/cos 位置エンコーディング**: 計算式で決まる固定の位置ベクトル（論文の方式）。外挿しやすい。
+- **学習する位置埋め込み**: 位置ごとのベクトルを学習で持つ方式。柔軟だが学習した長さまで。第7巻で使用。
+- **Feed-Forward Network（FFN）**: 位置ごとに独立に適用する2層 MLP。`d_model → d_ff → d_model`。情報を「変換」する。
+- **d_ff**: FFN の中間次元。定番は `4 × d_model`。
+- **残差接続 / LayerNorm**: 第3巻で仕込んだ部品。`LayerNorm(x + Sublayer(x))` でサブlayer を包む。
+- **Sublayer**: 残差＋LayerNorm で包まれる中身。この巻で Attention と FFN がこれに入る。
+- **Transformer ブロック**: 「包んだ Attention」→「包んだ FFN」を順に通した1ブロック。積み重ねて Transformer になる。
+- **Pre-LN / Post-LN**: LayerNorm をサブlayer の前にかけるか後にかけるかの違い。論文は Post-LN、第7巻は Pre-LN。
