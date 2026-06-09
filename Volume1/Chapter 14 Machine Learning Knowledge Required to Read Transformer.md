@@ -300,3 +300,11 @@ Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) V
 **Transformer は、トークン列を入力し、Self-Attention によって文脈を反映した表現を作り、次トークンの確率分布を予測するニューラルネットワークである。**
 
 ここまでの機械学習の基本を押さえておくと、Transformer の論文はかなり読みやすくなります。最初から完全に理解する必要はなく、まずは Transformer も「入力、モデル、出力、損失、パラメータ更新」という機械学習の基本構造の上にある、と見えることが大切です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第13章　機械学習の全体像](Chapter%2013%20The%20Big%20Picture%20of%20Machine%20Learning.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

@@ -231,3 +231,11 @@ step  40  loss 0.69    ← まったく動かない
 - 学習率は「一歩の大きさ」。大きすぎると暴れ、小さすぎると遅い。エポックは訓練データ全体を1周すること。
 - SGD を AdamW に差し替えても、ループの骨格は変わらない（変わるのは1行）。Transformer の学習でも AdamW が定番。
 - 損失が下がっているかを表示で確認するのが、デバッグの第一歩。増える・動かないときは原因を疑う。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第6章　逆伝播と連鎖律（実装で）](Chapter%206%20Backpropagation%20and%20the%20Chain%20Rule.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第8章　ミニ MLP を最後まで学習させ切る →](Chapter%208%20Training%20a%20Mini%20MLP%20End%20to%20End.md)
+
+<!-- chapter-nav:end -->

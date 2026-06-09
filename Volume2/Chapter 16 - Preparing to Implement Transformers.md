@@ -127,3 +127,11 @@ out:     [batch_size, seq_len, d_model]
 `examples/03_attention.py` を実行すると、Q/K/Vからscores・weights・outまでのshapeの流れとcausal maskの動きを確認できます。
 
 次は、ニューラルネットワークの基本に進むとよいです。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第15章 実装で確認する数学](Chapter%2015%20-%20Verifying%20the%20Math%20Through%20Implementation.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

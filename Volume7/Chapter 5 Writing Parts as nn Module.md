@@ -126,3 +126,11 @@ flowchart LR
 - だから、どんなに部品を入れ子にしても、学習ループは第3巻7章のまま変わらない。
 - 第5巻で書いた MultiHeadAttention・FeedForward・TransformerBlock・位置埋め込みを、そのまま使って統合する。
 - 入出力 shape を `[batch, L, d_model]` でそろえてあるので、つなぐだけで動く。次章からデータ→モデル→学習→生成と作る。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章　テンソルと autograd](Chapter%204%20Tensors%20and%20Autograd.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章　データを用意する（文字レベル） →](Chapter%206%20Preparing%20Character%20Level%20Data.md)
+
+<!-- chapter-nav:end -->

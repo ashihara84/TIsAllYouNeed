@@ -148,3 +148,11 @@ L が10倍になれば、100倍です。
 - 経路長（離れた位置が影響し合うまでの計算ステップ数）が、Self-Attention では距離に関係なく定数。だから長距離依存を学びやすい。
 - 弱点は計算量が系列長の2乗に比例すること（全トークン対 `L×L` を計算するから）。長文脈での課題は第8巻へ。
 - この節は、第4巻11章で語った「Attention が足したもの」の、定量的な裏づけ。直感が先にあるから深く読める。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　位置エンコーディングの節を読む](Chapter%207%20Reading%20the%20Positional%20Encoding%20Section.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　学習設定を読む →](Chapter%209%20Reading%20the%20Training%20Setup.md)
+
+<!-- chapter-nav:end -->

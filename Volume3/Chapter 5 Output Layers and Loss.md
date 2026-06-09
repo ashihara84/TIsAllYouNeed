@@ -216,3 +216,11 @@ targets : [batch]              = [2]    （正解クラスの番号）
 - `p=0.9` なら損失 ≈ 0.1、`p=0.1` なら損失 ≈ 2.3。正解を外すほど、急激に大きくなる。
 - PyTorch の `nn.CrossEntropyLoss` は内部で softmax を行う。モデル側で softmax をかけず、ロジットを渡す（二重がけ注意）。
 - `logits[batch, num_classes]` と `targets[batch]`（正解クラス番号）から、バッチ平均の損失（1つのスカラー）が得られる。これが勾配の出発点。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章　活性化関数](Chapter%204%20Activation%20Functions.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章　逆伝播と連鎖律（実装で） →](Chapter%206%20Backpropagation%20and%20the%20Chain%20Rule.md)
+
+<!-- chapter-nav:end -->

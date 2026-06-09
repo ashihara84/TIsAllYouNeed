@@ -109,3 +109,11 @@ Decoder-only・事前学習・調整・推論の工夫      → 第8巻（本書
 - 機械学習・数学・ニューラルネット・言語・Attention・論文・実装・LLM 化と、土台はすべて手の内にある。
 - ブラックボックスだった GPT が、隅々まで歩ける地図になった。これが到達点。
 - 地図の外（巨大スケール特有の現象、安全性、マルチモーダル等）も、この土台を足場に、「既知との差分」として探検できる。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　文脈長とスケーリングの直感](Chapter%2010%20Context%20Length%20and%20Scaling.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章　まとめ：結局、全部要る →](Chapter%2012%20Summary%20Everything%20Is%20What%20You%20Need.md)
+
+<!-- chapter-nav:end -->

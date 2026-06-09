@@ -158,3 +158,11 @@ flowchart LR
 - 単語をベクトル（連続）で表すと、内積や距離で「意味の近さ」を扱えるようになる（第2巻4章）。
 - 言語の入力は「単語 → ID → ベクトル」の2段階。前半がトークン化（3〜4章）、後半が embedding（5章）。
 - ベクトルは手で設計せず、学習で獲得する（表現学習）。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章　この巻の地図](Chapter%201%20Map%20of%20This%20Volume.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章　トークン化（tokenization） →](Chapter%203%20Tokenization.md)
+
+<!-- chapter-nav:end -->

@@ -183,3 +183,11 @@ RNN は、固定窓をやめて、「状態を持ち越す」という発想で�
 - ニューラル言語モデルは、embedding（意味の近さ）と学習する関数で、2つ目の限界を解消した。
 - ただし固定窓モデルは、窓の外を見られないという「長い文脈」の問題を引きずる。
 - この「長い文脈を運ぶ」問題に挑むのが、次章の RNN。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　言語モデルとは](Chapter%207%20What%20Is%20a%20Language%20Model.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　RNN の考え方（実装しない） →](Chapter%209%20The%20Idea%20of%20RNNs.md)
+
+<!-- chapter-nav:end -->

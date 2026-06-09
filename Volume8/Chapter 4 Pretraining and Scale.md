@@ -134,3 +134,11 @@
 - スケーリング則：モデル・データ・計算を増やすと、損失が予測可能な形で改善する。巨大化はこれに支えられる。
 - ただし配分のバランスが重要で、「ただ大きく」から「賢く配分」への流れもある。
 - 大規模化で複雑な振る舞い（創発）が観察されるが、それが質的飛躍かは議論があり、断定は避ける。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章　Decoder-only という選択（GPT 系）](Chapter%203%20The%20Decoder-Only%20Choice.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章　トークナイザの現実 →](Chapter%205%20Tokenizers%20in%20Practice.md)
+
+<!-- chapter-nav:end -->

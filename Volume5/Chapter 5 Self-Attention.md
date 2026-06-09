@@ -173,3 +173,11 @@ shape の変化を、確認しましょう。
 - `nn.Module` として、Q/K/V の線形変換を持ち、`forward` で第4章の attention を行う部品にした。
 - 入出力の shape が同じなので、残差接続で包め、ブロックを積み重ねられる。
 - いまの Self-Attention は未来のトークンも見てしまう。それを禁じるのが、次章の causal mask。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章　スケール付き内積 Attention](Chapter%204%20Scaled%20Dot-Product%20Attention.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章　Causal mask（未来を見ない） →](Chapter%206%20Causal%20Masking.md)
+
+<!-- chapter-nav:end -->

@@ -192,3 +192,11 @@ flowchart LR
 - 損失は交差エントロピー `-log(P(正解の次トークン))`（第2巻9章・第3巻5章）。
 - テキストの1つ後ろが、そのまま正解になる（自己教師）。だからラベルなしの大量テキストで学習できる。
 - 生成は「次の分布から1つ選び、末尾に足す」の繰り返し。選び方は貪欲・サンプリング・temperature など。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第6章　系列データを扱う](Chapter%206%20Working%20with%20Sequences.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第8章　n-gram からニューラル言語モデルへ →](Chapter%208%20From%20N-grams%20to%20Neural%20Language%20Models.md)
+
+<!-- chapter-nav:end -->

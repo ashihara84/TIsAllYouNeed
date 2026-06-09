@@ -229,3 +229,11 @@ softmax が、正しく効いている証拠です。
 - softmax は `dim=-1`（各 Query 行）で取り、合計1の重みにする。`weights @ V` で Value を重み付き和にする。
 - 中心式 `softmax(QK^T / sqrt(d_k))V` を、3行の `attention` 関数として実装した。以降の部品の土台になる。
 - `K.transpose(-2, -1)` はバッチ付きでも動く `K^T` の書き方。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章　Q / K / V という役割分担](Chapter%203%20The%20Roles%20of%20Q%20K%20V.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章　Self-Attention →](Chapter%205%20Self-Attention.md)
+
+<!-- chapter-nav:end -->

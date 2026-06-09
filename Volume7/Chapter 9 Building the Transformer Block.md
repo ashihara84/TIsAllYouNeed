@@ -134,3 +134,11 @@ print(x.shape)   # torch.Size([4, 8, 64])
 - この巻は Pre-LN（`x + Sublayer(LayerNorm(x))`）を採用。深く積んでも安定しやすく、手軽に学習できる。
 - 第3巻の残差・LayerNorm と、第5巻の Attention・FFN が、`Block` の数行に集約された（`Sublayer` が埋まった）。
 - ブロックは入出力 shape が同じなので、何段でも積める（`nn.ModuleList`）。段数はハイパーパラメータ。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章　Attention 部品を nn.Module にする](Chapter%208%20Attention%20as%20nn%20Module.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章　モデル全体を組む（小さな GPT） →](Chapter%2010%20Assembling%20a%20Small%20GPT.md)
+
+<!-- chapter-nav:end -->

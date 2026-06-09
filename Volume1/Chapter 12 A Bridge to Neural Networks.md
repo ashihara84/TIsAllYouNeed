@@ -282,3 +282,11 @@ Transformer は、Self-Attention と Feed Forward Network を含むニューラ�
 **ニューラルネットワークとは、線形変換と非線形変換を層として重ねることで、入力から予測に役立つ表現を学習するモデルである。**
 
 Transformer もニューラルネットワークの一種です。トークン列を埋め込みベクトルに変換し、Self-Attention と Feed Forward Network を含む層を重ね、文脈を反映した表現を作り、その表現を使って次のトークンの確率分布を出します。つまり、Transformer を理解するためには、まずニューラルネットワークを「重み行列による変換」「活性化関数」「層の積み重ね」「損失を小さくする学習」として理解しておくことが重要です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章　確率として見る機械学習](Chapter%2011%20Machine%20Learning%20as%20Probability.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第13章　機械学習の全体像 →](Chapter%2013%20The%20Big%20Picture%20of%20Machine%20Learning.md)
+
+<!-- chapter-nav:end -->

@@ -114,3 +114,11 @@ Attention：全トークンを直接見比べ、並列に文脈を混ぜる … 
 - 「RNN の辛さと Attention が足したもの」を語れる状態になった。これが次の巻での武器。
 - 第5巻では、Attention の核（内積・softmax・重み付き和）を、実際の部品として手で書く。
 - 第3巻で仕込んだ残差接続・LayerNorm の `Sublayer` が、第5巻でついに埋まる。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章　Attention は何を足したか（動機づけ）](Chapter%2011%20What%20Attention%20Added.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

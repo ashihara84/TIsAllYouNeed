@@ -255,3 +255,11 @@ step 1600  loss 0.0382
 - softmax＋交差エントロピーの出力勾配は `softmax - onehot(y)` という、簡単な形になる。
 - 勾配は連鎖律で後ろへ伝える（第2巻12章・第3巻6章の具体化）。ReLU の逆伝播は `dh * (z1 > 0)`（正のところだけ通す）。
 - この手書きの逆伝播ぜんぶを、PyTorch は `loss.backward()` 一行で肩代わりする。次章でそれを体感する。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章　この巻の地図](Chapter%201%20Map%20of%20This%20Volume.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章　同じネットを PyTorch で書き直す →](Chapter%203%20Rewriting%20in%20PyTorch.md)
+
+<!-- chapter-nav:end -->

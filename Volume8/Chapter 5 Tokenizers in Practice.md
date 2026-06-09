@@ -124,3 +124,11 @@ LLM の利用料金や計算量は、しばしば「トークン数」で、測�
 - バイト単位の BPE は、どんな文字もバイト列に分解でき、未知語を原理的になくせる。
 - 語彙サイズと系列長はトレードオフ。系列長は Self-Attention の2乗コストに効く（第6巻8章）。
 - トークン化は性能とコスト（トークン課金・計算量・扱いやすさ）に直結する、重要な設計。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章　事前学習とスケール](Chapter%204%20Pretraining%20and%20Scale.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章　fine-tuning →](Chapter%206%20Fine-Tuning.md)
+
+<!-- chapter-nav:end -->

@@ -102,3 +102,11 @@ Encoder/Decoder ブロックの積み重ね   →  第12章（ブロックを並
 - これらは論文の式・図に一対一で対応する。第6巻では「全部もう知っている」状態で、論文を確認作業として読める。
 - 部品の統合（言語モデルとして学習・生成）は第7巻。素手→PyTorch の対比とともに行う。
 - 次は第6巻。いよいよ論文『Attention Is All You Need』を、論文の順で読む。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第12章　部品を並べてみる（まだ統合しない）](Chapter%2012%20Laying%20Out%20the%20Parts.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

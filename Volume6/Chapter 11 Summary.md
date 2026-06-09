@@ -111,3 +111,11 @@ Attention は、確かに主役です。
 - "Attention Is All You Need" は、系列変換の文脈では妥当な主張だが、実際には位置・FFN・残差・LayerNorm・embedding も要る。「結局、全部要る」は第8巻で回収。
 - 残るは、統合して動かすこと。第7巻で、素手→PyTorch の対比とともに、小さな GPT を文字生成まで通す。
 - 理論（第6巻まで）と実装（第7巻）が出会う。「読んで分かった」を「作って動かせた」に変える。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　結果と結論を読む](Chapter%2010%20Reading%20the%20Results%20and%20Conclusion.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

@@ -126,3 +126,11 @@ for name, p in model.named_parameters():
 - mask はエラーなく壊れる。Attention の重みの上三角が0かを、目で確かめる（「エラーなし＝正しい」ではない）。
 - 学習が進まないときは `.grad` を見る。`None` なら計算グラフが切れている。
 - まず極小設定で forward → backward → 学習 → 生成を1つずつ通し、それから大きくする。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第12章　文字を生成させる](Chapter%2012%20Generating%20Text.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第14章　まとめ：自分で Transformer を動かせた →](Chapter%2014%20Summary.md)
+
+<!-- chapter-nav:end -->

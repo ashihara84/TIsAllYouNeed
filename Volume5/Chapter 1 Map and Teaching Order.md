@@ -158,3 +158,11 @@ flowchart LR
 - 部品を作る順番は論文の順ではなく、「易しい核から1つずつ足す」最適な学習順。
 - 論文を読むのは第6巻。そこで「全部もう知っている」状態にするのが、この巻の役割。
 - この巻は部品を小さく書いて動かすまで。統合（第7巻）・現代 LLM（第8巻）には踏み込まない。
+
+---
+
+<!-- chapter-nav:start -->
+
+[目次](Table%20of%20Contents.md) ｜ [第2章　Attention の核：重み付き和 →](Chapter%202%20The%20Core%20of%20Attention%20Weighted%20Sum.md)
+
+<!-- chapter-nav:end -->

@@ -278,3 +278,11 @@ softmaxはlogitsを確率分布に変換する
 ```
 
 次章では、損失関数とcross entropyについて学びます。cross entropyは、モデルが出した確率分布と正解トークンとのズレを数値化するために使われます。言語モデルの学習は「logitsを出す → 正解トークンと比べる → cross entropy lossを計算する → 損失が小さくなるようにパラメータを更新する」という流れが基本です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章 softmax](Chapter%207%20-%20Softmax.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章 損失関数とクロスエントロピー →](Chapter%209%20-%20Loss%20Functions%20and%20Cross-Entropy.md)
+
+<!-- chapter-nav:end -->

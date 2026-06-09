@@ -160,3 +160,11 @@ print(x.shape, y.shape)   # torch.Size([4, 8]) torch.Size([4, 8])
 - ターゲットは入力を1文字後ろにずらしたもの。各位置で「次の文字」が正解（自己教師、第4巻7章）。
 - `block_size`（系列長 L、文脈の長さ）と `batch_size`（B、まとめて流す数）を区別。`get_batch` は `[B, L]` の x と1つずれの y を返す。
 - 小さなモデルでは `get_batch` をループで呼ぶ簡単な仕組みで十分。毎回ランダムな場所から切り出す。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章　nn.Module で部品を書く](Chapter%205%20Writing%20Parts%20as%20nn%20Module.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章　埋め込みと位置エンコーディングを組む →](Chapter%207%20Embedding%20and%20Positional%20Encoding.md)
+
+<!-- chapter-nav:end -->

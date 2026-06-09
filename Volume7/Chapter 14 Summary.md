@@ -102,3 +102,11 @@ Decoder-only、事前学習とスケール、fine-tuning、RLHF――それら�
 - 作ったのは Decoder-only の言語モデル（causal mask を使う）。これが現代の GPT 系の基本形。
 - 構造は本物の GPT と本質的に同じ。違うのは規模と、その後の調整。
 - 次の第8巻で、この小さな GPT を出発点に、現代の LLM への橋を渡る。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第13章　デバッグと shape 地獄の歩き方](Chapter%2013%20Debugging%20and%20Shape%20Hell.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

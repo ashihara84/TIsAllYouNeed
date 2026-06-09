@@ -223,3 +223,11 @@ Transformer は、トークンIDを埋め込みベクトルに変換し、層を
 **機械学習モデルは、入力された特徴量をもとに予測し、深層学習ではその特徴量から予測に役立つ内部表現を学習する。**
 
 Transformer は、トークンIDの列を受け取り、埋め込みベクトルに変換し、Self-Attention によって文脈を反映した表現へ更新し、その表現を使って次のトークンを予測します。つまり、Transformer は単に単語を処理しているのではなく、文脈に応じた表現を作りながら予測しているのです。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　回帰問題](Chapter%209%20Regression%20Problems.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　確率として見る機械学習 →](Chapter%2011%20Machine%20Learning%20as%20Probability.md)
+
+<!-- chapter-nav:end -->

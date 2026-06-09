@@ -398,3 +398,11 @@ QとKは内積を取るので同じ次元にする必要がある
 ```
 
 次章では、softmaxについて学びます。softmaxは、Attention scoreを「どのトークンをどれくらい見るか」という重みに変換するために使われます。Transformerの中心式では `softmax(QK^T / sqrt(d_k))` の部分です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章 行列の基本](Chapter%205%20-%20Matrix%20Basics.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章 softmax →](Chapter%207%20-%20Softmax.md)
+
+<!-- chapter-nav:end -->

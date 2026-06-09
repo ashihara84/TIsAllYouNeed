@@ -120,3 +120,11 @@ Dropout・正則化            → 第1巻7章・第3巻11章
 - 正則化は Dropout（第1巻7章・第3巻11章）と label smoothing（自信過剰を防ぐ、交差エントロピーの工夫）。
 - データはサブワード分割・長さをそろえたバッチ（第4巻3〜6章）。
 - 学習設定はすべて、第1〜4巻の基礎の組み合わせ。特別な理論は出てこない。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章　Why Self-Attention（設計理由）](Chapter%208%20Why%20Self-Attention.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章　結果と結論を読む →](Chapter%2010%20Reading%20the%20Results%20and%20Conclusion.md)
+
+<!-- chapter-nav:end -->

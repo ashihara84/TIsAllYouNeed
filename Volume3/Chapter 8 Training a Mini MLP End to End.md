@@ -232,3 +232,11 @@ print("正解:", y.tolist())
 - 学習ループの骨格（zero_grad → forward → loss → backward → step）は前章と同じ。
 - 推論時は `with torch.no_grad()`、予測クラスは `argmax(dim=-1)` で取り出す。
 - うまくいかないときは、zero_grad・学習率・softmax 二重がけ・shape を順に疑う。まず print して見る。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　勾配降下で学習させる](Chapter%207%20Training%20with%20Gradient%20Descent.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　残差接続 →](Chapter%209%20Residual%20Connections.md)
+
+<!-- chapter-nav:end -->

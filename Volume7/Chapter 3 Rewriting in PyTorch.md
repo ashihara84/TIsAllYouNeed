@@ -153,3 +153,11 @@ backward を手で書く   →  loss.backward() の一行 ★
 - `requires_grad=True` のテンソルについて、PyTorch が計算を記録し、`p.grad` に勾配を入れてくれる。
 - 手書きの勾配と PyTorch の勾配は、一致する。autograd は魔法でなく、連鎖律の自動実行。
 - 中身を一度手で触ったからこそ、`backward()` を信頼して使える。以降はずっと PyTorch。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章　素手で組む（NumPy だけ）](Chapter%202%20By%20Hand%20with%20NumPy.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章　テンソルと autograd →](Chapter%204%20Tensors%20and%20Autograd.md)
+
+<!-- chapter-nav:end -->

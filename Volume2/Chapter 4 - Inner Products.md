@@ -256,3 +256,11 @@ QK^Tによって全トークン同士の相性をまとめて計算できる
 ```
 
 次章では、行列について詳しく学びます。Transformerでは、内積を1つずつ計算するのではなく、行列積としてまとめて計算します。そのため、行列、行列積、転置、shapeの変化を理解することが、Attentionの式を読むための次の土台になります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章 ベクトルの基本](Chapter%203%20-%20Vector%20Basics.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章 行列の基本 →](Chapter%205%20-%20Matrix%20Basics.md)
+
+<!-- chapter-nav:end -->

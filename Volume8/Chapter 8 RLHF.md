@@ -148,3 +148,11 @@ RLHF        : 比較データ → 報酬モデル → 強化学習で方策を�
 - RLHF は、人間の比較データから、報酬モデル（自動採点者）を作る。
 - その報酬が高くなる方向に、元から離れすぎない制約のもとで、言語モデルを更新する。
 - 報酬モデル＋強化学習を簡素化する代替手法もある。本質は「人間の好みで応答を整える」こと。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　指示チューニング（instruction tuning）](Chapter%207%20Instruction%20Tuning.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　推論時の工夫 →](Chapter%209%20Inference-Time%20Techniques.md)
+
+<!-- chapter-nav:end -->

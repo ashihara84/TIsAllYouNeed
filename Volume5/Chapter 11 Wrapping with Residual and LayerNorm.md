@@ -159,3 +159,11 @@ LayerNorm の位置が、違うだけです。
 - ブロックは「残差＋LayerNorm で包んだ Attention」→「残差＋LayerNorm で包んだ FFN」の2段。
 - `LayerNorm(x + Sublayer(x))` の `Sublayer` が、ついに Attention と FFN で埋まった（第3巻の回収完了）。
 - Post-LN（論文）と Pre-LN（現代）の違いは、LayerNorm の位置だけ。第7巻では Pre-LN を使う。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　Feed-Forward Network（FFN）](Chapter%2010%20Feed-Forward%20Network.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章　部品を並べてみる（まだ統合しない） →](Chapter%2012%20Laying%20Out%20the%20Parts.md)
+
+<!-- chapter-nav:end -->

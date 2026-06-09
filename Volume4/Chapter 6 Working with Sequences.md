@@ -198,3 +198,11 @@ Transformer は、この `[batch, L, d_model]` を受け取り、Attention で�
 - 文脈とは、あるトークンの意味を決める周りのトークン。同じ「bank」でも文脈で意味が変わる。
 - 系列は `[L, d_model]`（バッチ付き `[batch, L, d_model]`）の行列。各行が1トークン。
 - embedding しただけでは各トークンは独立（文脈が混ざっていない）。文脈を混ぜ込むのが Attention の仕事（第11章・第5巻）。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章　embedding：トークンをベクトルにする](Chapter%205%20Embeddings.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章　言語モデルとは →](Chapter%207%20What%20Is%20a%20Language%20Model.md)
+
+<!-- chapter-nav:end -->

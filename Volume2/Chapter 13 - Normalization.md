@@ -355,3 +355,11 @@ LayerNormは深いネットワークの学習を安定させる
 LayerNormは、batch方向に平均を取る操作ではありません。Transformerでよく使うLayerNormは、各トークンの `d_model` 次元方向を正規化します。
 
 次章では、いよいよAttentionの数式を読みます。ここまでに学んだベクトル・内積・行列積・転置・線形変換・softmax・shapeを使って、Transformerの中心式 `Attention(Q, K, V) = softmax(QK^T / sqrt(d_k))V` を分解します。この式が読めるようになると、Transformerの中心部分がかなり見えてきます。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第12章 合成関数と連鎖律](Chapter%2012%20-%20Composite%20Functions%20and%20the%20Chain%20Rule.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第14章 Attentionの数式を読む →](Chapter%2014%20-%20Reading%20the%20Math%20Behind%20Attention.md)
+
+<!-- chapter-nav:end -->

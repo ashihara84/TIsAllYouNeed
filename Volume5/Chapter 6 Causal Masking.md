@@ -196,3 +196,11 @@ print(w[0].round(decimals=2))
 - causal mask は下三角だけ残すマスク（`torch.tril`）。`masked_fill(mask==0, -inf)` で適用する。
 - 適用後、各トークンは自分以前にしか重みを持たない（三角形の形）。各行の合計は1のまま。
 - これが言語モデルの中核部品になる（第7巻）。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章　Self-Attention](Chapter%205%20Self-Attention.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章　Multi-Head Attention →](Chapter%207%20Multi-Head%20Attention.md)
+
+<!-- chapter-nav:end -->

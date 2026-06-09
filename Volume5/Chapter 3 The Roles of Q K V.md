@@ -176,3 +176,11 @@ print(Q.shape)                   # torch.Size([2, 3, 8])  [batch, L, d_k]
 - Q/K/V は embedding `x` に、3つの独立な線形変換 `W_Q, W_K, W_V` を通して作る（第2巻6章・第3巻の回収）。
 - shape は `x:[L,d_model]` → `Q,K,V:[L,d_k]`（バッチ付きで先頭に batch）。
 - 第2章の「核」と、この章の「役割分担」が、次章で合流する。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章　Attention の核：重み付き和](Chapter%202%20The%20Core%20of%20Attention%20Weighted%20Sum.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章　スケール付き内積 Attention →](Chapter%204%20Scaled%20Dot-Product%20Attention.md)
+
+<!-- chapter-nav:end -->

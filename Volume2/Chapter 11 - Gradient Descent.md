@@ -333,3 +333,11 @@ w = 3.0, gradient = 2.0, learning_rate = 0.1
 勾配は、lossが増えやすい方向を表します。学習ではlossを小さくしたいので、勾配の逆方向に動かします。
 
 次章では、合成関数と連鎖律について学びます。ニューラルネットワークは多くの関数を重ねたもの（入力 → embedding → 線形層 → Attention → FFN → 出力層 → loss）で、何段階もの計算を通してlossが作られます。そのlossから前の層のパラメータにどうやって勾配を伝えるのか、その考え方の中心になるのが連鎖律です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章 微分の直感](Chapter%2010%20-%20The%20Intuition%20Behind%20Differentiation.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章 合成関数と連鎖律 →](Chapter%2012%20-%20Composite%20Functions%20and%20the%20Chain%20Rule.md)
+
+<!-- chapter-nav:end -->

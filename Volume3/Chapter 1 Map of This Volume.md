@@ -204,3 +204,11 @@ GPU は不要です。
 - 「ニューロンとは」からは始めない。第1巻12章の直感を、手が動くレベルに実体化する巻である。
 - Transformer の部品づくりは第5巻、統合は第7巻。自前 autograd も作らない。いずれもこの巻ではやらない。
 - 道具は PyTorch。GPU は不要で、CPU で一瞬。目的は性能でなく「一周を自分の手で通す」こと。
+
+---
+
+<!-- chapter-nav:start -->
+
+[目次](Table%20of%20Contents.md) ｜ [第2章　線形モデルから多層へ →](Chapter%202%20From%20Linear%20Models%20to%20Multiple%20Layers.md)
+
+<!-- chapter-nav:end -->

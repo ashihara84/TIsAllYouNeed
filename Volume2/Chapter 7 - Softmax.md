@@ -375,3 +375,11 @@ weights = torch.softmax(scores, dim=-1)
 softmaxは「一番大きいものを1つ選ぶ」操作ではありません。1つ選ぶのはargmaxです。softmaxは候補全体に重みを配る操作です。
 
 次章では、確率分布について学びます。softmaxの出力は確率分布として解釈でき、言語モデルは最終的に次のトークン候補に対する確率分布を出します。この考え方を理解すると、言語モデルの出力・cross entropy・学習の仕組みがさらに見えやすくなります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第6章 線形変換](Chapter%206%20-%20Linear%20Transformations.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第8章 確率分布 →](Chapter%208%20-%20Probability%20Distributions.md)
+
+<!-- chapter-nav:end -->

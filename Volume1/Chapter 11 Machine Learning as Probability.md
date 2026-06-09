@@ -209,3 +209,11 @@ print("sampled:", tokens[sampled_id])
 **機械学習モデルは、不確実な入力に対して候補ごとの確率を出し、学習では観測された正解データがよりもっともらしくなるようにパラメータを調整する。**
 
 Transformer や大規模言語モデルも、この考え方の上にあります。文脈を入力し、次トークンの確率分布を出し、実際に続いたトークンに高い確率を出せるように学習し、生成時にはその確率分布からトークンを選ぶ。この確率的な見方を持っておくと、Transformer の出力、softmax、交差エントロピー、次トークン予測の意味がかなり理解しやすくなります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　特徴量と表現](Chapter%2010%20Features%20and%20Representation.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章　ニューラルネットワークへの橋渡し →](Chapter%2012%20A%20Bridge%20to%20Neural%20Networks.md)
+
+<!-- chapter-nav:end -->

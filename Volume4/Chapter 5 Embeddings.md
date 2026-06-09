@@ -228,3 +228,11 @@ shape は `[7, 4]`、つまり「語彙7、各4次元」です。
 - embedding は「ID に対応する行を引く」操作。系列を渡すと `[L, d_model]`（バッチ付きで `[batch, L, d_model]`）になる。
 - 似た文脈で使われる語のベクトルは、次トークン予測の学習を通じて、似てくる（表現学習）。
 - `nn.Embedding(vocab_size, d_model)` がこれを担う。出力の shape `[batch, L, d_model]` は、この先の基本形。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章　語彙と ID](Chapter%204%20Vocabulary%20and%20IDs.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章　系列データを扱う →](Chapter%206%20Working%20with%20Sequences.md)
+
+<!-- chapter-nav:end -->

@@ -355,3 +355,11 @@ print(mlp(x))
 - だから、層の間に **活性化関数（非線形）** を挟む。これが平面を「折り曲げ」、複雑な境界を作る。
 - 入力と出力の間の層を隠れ層と呼び、有用な表現を学習で自動的に見つける。幅と深さはハイパーパラメータ。
 - 線形変換と活性化を順につないだものが MLP。この巻で最初に自分で書くモデルである。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章　この巻の地図](Chapter%201%20Map%20of%20This%20Volume.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章　順伝播を行列で書く →](Chapter%203%20Forward%20Propagation%20with%20Matrices.md)
+
+<!-- chapter-nav:end -->

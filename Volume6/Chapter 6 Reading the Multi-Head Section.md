@@ -94,3 +94,11 @@
 - 構成は「h 個に射影 → 各ヘッドで Attention → concat → W_O」。第5巻7章の実装と、一対一で一致。
 - 各ヘッド次元 `d_k = d_model / h`（論文は 512/8 = 64）なので、ヘッドを増やしても全体の計算量はほぼ変わらない。
 - 第5巻7章の `MultiHeadAttention`（split_heads・W_o）が、論文の記述にそのまま対応する。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章　Attention の節を読む](Chapter%205%20Reading%20the%20Attention%20Section.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章　位置エンコーディングの節を読む →](Chapter%207%20Reading%20the%20Positional%20Encoding%20Section.md)
+
+<!-- chapter-nav:end -->

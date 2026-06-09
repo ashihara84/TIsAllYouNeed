@@ -176,3 +176,11 @@ RNN は、情報を「1ステップずつ、状態を経由して、間接的に
 - 根っこは「情報を1ステップずつ状態経由で間接的に運ぶ」という構造にある。
 - そこから「遠くの単語を直接見たい」「全結びつきを並列に計算したい」という欲求が生まれる。
 - この欲求に応えるのが Attention（次章）。3つの辛さを胸に刻んでおく。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　RNN の考え方（実装しない）](Chapter%209%20The%20Idea%20of%20RNNs.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　Attention は何を足したか（動機づけ） →](Chapter%2011%20What%20Attention%20Added.md)
+
+<!-- chapter-nav:end -->

@@ -449,3 +449,11 @@ out = weights @ V
 ```
 
 次章では、この数学編の最後として、Transformer実装に進む前の確認を行います。これまで学んだ内容をチェックリストとして整理し、次に「ニューラルネットワークの基本」または「Transformer実装」に進むための準備を確認します。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第14章 Attentionの数式を読む](Chapter%2014%20-%20Reading%20the%20Math%20Behind%20Attention.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第16章 まとめと次の巻への橋渡し（自己チェックリスト） →](Chapter%2016%20-%20Preparing%20to%20Implement%20Transformers.md)
+
+<!-- chapter-nav:end -->

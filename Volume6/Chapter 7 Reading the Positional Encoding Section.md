@@ -94,3 +94,11 @@ PE(pos, 2i+1) = cos( pos / 10000^(2i/d_model) )
 - 著者が sin/cos を選んだ理由は、相対位置を線形に表せること、長い系列への外挿の可能性（第5巻8章で得た直感）。
 - 学習埋め込みもほぼ同等の性能。外挿の可能性から sin/cos を採用した。
 - 位置情報の手法はその後発展した（RoPE など）。論文の sin/cos はその出発点。詳細は第8巻。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第6章　Multi-Head Attention の節を読む](Chapter%206%20Reading%20the%20Multi-Head%20Section.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第8章　Why Self-Attention（設計理由） →](Chapter%208%20Why%20Self-Attention.md)
+
+<!-- chapter-nav:end -->

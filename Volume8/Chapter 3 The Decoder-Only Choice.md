@@ -118,3 +118,11 @@ Encoder には、causal mask が、ありません（第6巻4章）。
 - 第7巻で作った causal mask 付きの小さな GPT が、まさに Decoder-only。あなたは実装済み。
 - Encoder 型は「入力全体を双方向に理解・分類」、Encoder–Decoder は「別系列への変換」に向く場合がある。
 - 生成 AI の主流が Decoder-only なのは、多くのタスクを1つの形に収め、巨大スケールと相性がよいから。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章　元論文から何が変わったか](Chapter%202%20What%20Changed%20from%20the%20Original.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章　事前学習とスケール →](Chapter%204%20Pretraining%20and%20Scale.md)
+
+<!-- chapter-nav:end -->

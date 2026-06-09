@@ -211,3 +211,11 @@ out              : [2, 4, 5, 4]    （B, h, L, d_k）
 - 各ヘッドで Attention を計算し、連結して `W_O` でまとめる。`W_O` は各ヘッドの情報を統合する。
 - スコア計算・mask・softmax・重み付き和は、ヘッド次元を足してもそのまま動く（shape を追えば分かる）。
 - 入出力は `[B, L, d_model]` で不変。残差接続で包め、積み重ねられる。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第6章　Causal mask（未来を見ない）](Chapter%206%20Causal%20Masking.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第8章　位置エンコーディング →](Chapter%208%20Positional%20Encoding.md)
+
+<!-- chapter-nav:end -->

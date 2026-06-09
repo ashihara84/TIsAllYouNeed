@@ -125,3 +125,11 @@ out : [4, 8, 64]    （位置の情報が加わる）
 - 位置の情報は、学習する位置埋め込みを足して与える（第5巻9章）。実装が素直なので、この巻ではこちらを使う。
 - トークン埋め込み＋位置埋め込みを、`Embeddings` モジュールにまとめた。出力は `[B, L, d_model]`。
 - これがモデルの入口。文脈を混ぜるのは、次章の Attention。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第6章　データを用意する（文字レベル）](Chapter%206%20Preparing%20Character%20Level%20Data.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第8章　Attention 部品を nn.Module にする →](Chapter%208%20Attention%20as%20nn%20Module.md)
+
+<!-- chapter-nav:end -->

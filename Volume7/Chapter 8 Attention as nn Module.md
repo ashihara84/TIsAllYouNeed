@@ -147,3 +147,11 @@ shape が保たれるので、残差接続で包め、ブロックを積めま�
 - Q/K/V を1つの `nn.Linear` にまとめ、Dropout を足し、mask を `register_buffer` で持つ実装にした（本質は第5巻のまま）。
 - `register_buffer` は「学習しないがモデルに属するテンソル」（mask など）を登録する仕組み。パラメータとは区別する。
 - 入出力 `[B, L, d_model]` は不変。残差で包め、ブロックに積める（次章）。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　埋め込みと位置エンコーディングを組む](Chapter%207%20Embedding%20and%20Positional%20Encoding.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　Transformer ブロックを組む →](Chapter%209%20Building%20the%20Transformer%20Block.md)
+
+<!-- chapter-nav:end -->

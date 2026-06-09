@@ -139,3 +139,11 @@ step  900  loss 2.05
 - optimizer は AdamW（lr=3e-4 が手堅い）。Pre-LN なら、ウォームアップなしでも安定しやすい。
 - `model.train()` で Dropout を有効に。損失が `log(vocab_size)` 付近（等確率の状態）から下がれば順調。
 - 詰まったら zero_grad・学習率・ターゲットのずれ・softmax 二重がけ・shape を疑う。まず print して見る。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　モデル全体を組む（小さな GPT）](Chapter%2010%20Assembling%20a%20Small%20GPT.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章　文字を生成させる →](Chapter%2012%20Generating%20Text.md)
+
+<!-- chapter-nav:end -->

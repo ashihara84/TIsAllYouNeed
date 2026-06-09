@@ -144,3 +144,11 @@ flowchart LR
 - Decoder ブロックは「Masked Self-Attention ＋ Cross-Attention ＋ FFN」の3サブlayer。
 - Decoder の Self-Attention には causal mask（未来を見ない）。第5巻6章のあれ。
 - Cross-Attention は Q を Decoder、K・V を Encoder から作る。計算は第5巻4章と同じで、新しいことはない。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章　Model Architecture：全体図を自分の言葉で](Chapter%203%20Model%20Architecture%20in%20Your%20Own%20Words.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章　Attention の節を読む →](Chapter%205%20Reading%20the%20Attention%20Section.md)
+
+<!-- chapter-nav:end -->

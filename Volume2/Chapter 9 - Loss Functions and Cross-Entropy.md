@@ -350,3 +350,11 @@ PyTorchの `F.cross_entropy` には、softmax後の確率ではなくlogitsを�
 ```
 
 次章では、微分の直感について学びます。ここまでで、モデルが予測を出しlossを計算するところまで見ました。次に必要なのは「lossを小さくするには、パラメータをどちら向きに動かせばよいのか」という考え方で、そのために微分と勾配が必要になります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章 確率分布](Chapter%208%20-%20Probability%20Distributions.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章 微分の直感 →](Chapter%2010%20-%20The%20Intuition%20Behind%20Differentiation.md)
+
+<!-- chapter-nav:end -->

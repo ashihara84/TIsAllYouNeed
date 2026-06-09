@@ -191,3 +191,11 @@ nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
 - Dropout は学習中だけニューロンの出力をランダムに0にして、過学習を抑える。`train()`/`eval()` で切り替わる。
 - 勾配消失には ReLU・残差接続・LayerNorm（この巻で仕込んだもの）、勾配爆発には勾配クリッピングが効く。
 - 網羅でなく、後の巻で効くものに絞った。いずれも第6巻・第7巻で再登場する。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　Layer Normalization](Chapter%2010%20Layer%20Normalization.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章　まとめ：論文の一行を謎にしないために →](Chapter%2012%20Summary.md)
+
+<!-- chapter-nav:end -->

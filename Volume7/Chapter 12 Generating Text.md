@@ -154,3 +154,11 @@ embedding も、Attention も、残差も、LayerNorm も、学習ループも�
 - temperature でロジットを割って分布の鋭さを変え、`multinomial` でサンプリングする（第2巻8章）。
 - 生成は `torch.no_grad()` ＋ `model.eval()`。文脈は `block_size` までに切り詰める。
 - 学習後は、学習データの癖を反映した、それらしい文字列が出る。自分で組んだ Transformer が、文字を生成した。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章　学習ループを書く](Chapter%2011%20Writing%20the%20Training%20Loop.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第13章　デバッグと shape 地獄の歩き方 →](Chapter%2013%20Debugging%20and%20Shape%20Hell.md)
+
+<!-- chapter-nav:end -->

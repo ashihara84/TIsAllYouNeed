@@ -144,3 +144,11 @@ embedding → 位置 → ブロック2段、と通しても、shape は `[1, 6, 
 - embedding ＋ 位置 ＋ ブロック数段、と並べて、shape が通ることを確認した。部品はすべて噛み合う。
 - ただし、言語モデルとしての統合（出力層・損失・学習・生成）は、あえてしない。それは第7巻の仕事。
 - 「部品が揃った」ところで止め、統合を第7巻に回すことが、第7巻を生かす。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章　残差接続と LayerNorm で部品を包む](Chapter%2011%20Wrapping%20with%20Residual%20and%20LayerNorm.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第13章　まとめ：部品表と7巻への橋 →](Chapter%2013%20Summary.md)
+
+<!-- chapter-nav:end -->

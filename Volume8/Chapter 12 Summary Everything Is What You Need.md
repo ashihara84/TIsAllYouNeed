@@ -157,3 +157,11 @@ T Is All You Need
 ---
 
 8巻を通り抜けたあなたへ。おつかれさまでした。よいお茶を。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章　いま君が触っている GPT の地図](Chapter%2011%20A%20Map%20of%20the%20GPT%20You%20Use.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

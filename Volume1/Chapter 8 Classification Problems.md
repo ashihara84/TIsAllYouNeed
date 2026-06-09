@@ -270,3 +270,11 @@ Transformer や大規模言語モデルを理解する上で、分類問題の�
 **分類問題とは、入力に対してカテゴリごとの確率を予測し、その確率に基づいて最終的なカテゴリを決める問題である。**
 
 Transformer や大規模言語モデルも、この考え方と深くつながっています。言語モデルは文脈を入力し、語彙全体の中から次に来るトークンを予測する、巨大な多クラス分類問題として見られます。そのため、softmax、交差エントロピー、確率分布、分類評価の考え方は、Transformer を理解するための重要な土台になります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　過学習と汎化](Chapter%207%20Overfitting%20and%20Generalization.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　回帰問題 →](Chapter%209%20Regression%20Problems.md)
+
+<!-- chapter-nav:end -->

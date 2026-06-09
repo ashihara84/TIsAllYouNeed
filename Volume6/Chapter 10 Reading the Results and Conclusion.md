@@ -105,3 +105,11 @@ BLEU の細かい数値より、「品質で勝ち、かつ速い」という二
 - 主張：Attention だけで系列モデリングの最高水準に到達でき、しかも速い。Abstract の宣言が裏づけられた。
 - 動機（第4巻）→ 設計理由（第8章）→ 結果（本章）という、論文の論理が、すべて手の内で追える。
 - 限界（長系列の2乗コスト）と今後（他分野・効率化・非逐次生成）は、現代の LLM（第8巻）への布石。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　学習設定を読む](Chapter%209%20Reading%20the%20Training%20Setup.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　まとめ："Attention Is All You Need" の回収 →](Chapter%2011%20Summary.md)
+
+<!-- chapter-nav:end -->

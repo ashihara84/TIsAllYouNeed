@@ -306,3 +306,11 @@ Q: [2, 4, 8], K: [2, 4, 8]
 `QK^T` の結果は、Valueそのものではありません。`QK^T` は、どのトークンを見るかを決めるためのスコア表です。Valueを混ぜるのは、その後の `weights @ V` です。
 
 次章では、線形変換について学びます。行列を「変換」として見る考え方をもう少し深めます。Transformerでは、embedding、Q/K/Vの生成、Feed Forward Network、出力層など、多くの場所で線形変換が使われます。そのため、線形変換を理解することは、ニューラルネットワークとTransformerの内部構造を理解するための重要な土台になります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章 内積](Chapter%204%20-%20Inner%20Products.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章 線形変換 →](Chapter%206%20-%20Linear%20Transformations.md)
+
+<!-- chapter-nav:end -->

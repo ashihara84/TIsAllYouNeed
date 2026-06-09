@@ -105,3 +105,11 @@ Transformer が相手にするのは、言語です。
 - 残差接続と LayerNorm は、第5巻のブロック作り、第6巻の論文読解、第7巻の統合で効く。
 - 論文の `LayerNorm(x + Sublayer(x))` のうち、残る謎は中身の `Sublayer`（＝Attention）だけ。
 - 次の第4巻では、言語をベクトルにする方法と、Attention 誕生の動機を学ぶ。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章　学習を安定させる小技](Chapter%2011%20Techniques%20for%20Stable%20Training.md) ｜ [目次](Table%20of%20Contents.md)
+
+<!-- chapter-nav:end -->

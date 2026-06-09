@@ -142,3 +142,11 @@ CPU で動く小さな GPT が、学習して文字を生成すれば、大成�
 - 前半は素手（NumPy）、後半は PyTorch。対比から「autograd のありがたみ」を身体で理解する。
 - 素手パートの出口は「NumPy で勾配を手書きした小さなネット1個を、学習させ切る」。Attention まで素手で行かない。
 - 自前 autograd は作らない。現代 LLM の話は第8巻。性能でなく「動かす」ことがゴール。
+
+---
+
+<!-- chapter-nav:start -->
+
+[目次](Table%20of%20Contents.md) ｜ [第2章　素手で組む（NumPy だけ） →](Chapter%202%20By%20Hand%20with%20NumPy.md)
+
+<!-- chapter-nav:end -->

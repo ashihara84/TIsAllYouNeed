@@ -180,3 +180,11 @@ sin/cos は、式で決まるので、学習しません。
 - 位置エンコーディングは、位置ごとに異なるベクトルを embedding に足すことで、順序を与える。足し算なので shape は不変。
 - 論文は sin/cos の位置エンコーディングを使う。速さの違う波の組み合わせで、位置ごとに固有の「指紋」を与える（時計の針のイメージ）。
 - 学習する位置埋め込みという方法もある（`nn.Embedding` を位置に使う。柔軟だが学習した長さまで）。第7巻ではこちらを使う。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第7章　Multi-Head Attention](Chapter%207%20Multi-Head%20Attention.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第9章　位置エンコーディングを書く →](Chapter%209%20Implementing%20Positional%20Encoding.md)
+
+<!-- chapter-nav:end -->

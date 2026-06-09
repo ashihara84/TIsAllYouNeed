@@ -279,3 +279,11 @@ ReLU を通すと、負の成分が0になり、`[0.7, 0.0, 1.2, 0.0]` になり
 - シグモイド（0〜1）と tanh（-1〜1）は範囲を押し込めるが、両端で傾きがほぼ0になり、勾配消失が起きやすい。
 - 隠れ層はまず ReLU、出力層は問題に合わせて選ぶ。Transformer の FFN でも ReLU/GELU が使われる。
 - 活性化は「途中で一部を0に折り曲げる」操作。これの積み重ねが表現力を生む。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章　順伝播を行列で書く](Chapter%203%20Forward%20Propagation%20with%20Matrices.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章　出力層と損失 →](Chapter%205%20Output%20Layers%20and%20Loss.md)
+
+<!-- chapter-nav:end -->

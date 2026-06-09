@@ -120,3 +120,11 @@ Decoder には、Attention が2つ入っているのです。
 - 論文の図1の箱は、すべて第5巻（と第4巻・第3巻）で作った部品に対応する。新しいものはない。
 - 図1の複雑さは、部品が Encoder/Decoder に配置され、N 段積まれているから。部品自体は手の内。
 - Decoder には masked Self-Attention と Cross-Attention の、2種類の Attention がある（次章）。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章　Abstract と Introduction を読む](Chapter%202%20Reading%20the%20Abstract%20and%20Introduction.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章　Encoder と Decoder のスタック →](Chapter%204%20The%20Encoder%20and%20Decoder%20Stacks.md)
+
+<!-- chapter-nav:end -->

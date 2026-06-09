@@ -207,3 +207,11 @@ embeddingはトークンIDをベクトルに変換する
 ```
 
 次章では、内積について学びます。内積は、Attentionを理解するための非常に重要な道具です。特に Self-Attention では、QueryとKeyの内積によってトークン同士の相性を計算します（Query と Key の内積 → トークン同士の相性スコア）。そのため、内積を「ただの計算」としてではなく、「ベクトル同士の相性を測る操作」として理解することが重要です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章 数・スカラー・ベクトル・行列](Chapter%202%20-%20Numbers%2C%20Scalars%2C%20Vectors%2C%20and%20Matrices.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章 内積 →](Chapter%204%20-%20Inner%20Products.md)
+
+<!-- chapter-nav:end -->

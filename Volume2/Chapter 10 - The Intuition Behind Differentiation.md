@@ -317,3 +317,11 @@ PyTorchは自動微分で勾配を計算してくれる
 ```
 
 次章では、勾配降下法について学びます。この章では「勾配とは何か」を見ました。次章では、その勾配を使って実際にどのようにパラメータを更新し、モデルを学習させるのかを詳しく見ていきます。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章 損失関数とクロスエントロピー](Chapter%209%20-%20Loss%20Functions%20and%20Cross-Entropy.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章 勾配降下法 →](Chapter%2011%20-%20Gradient%20Descent.md)
+
+<!-- chapter-nav:end -->

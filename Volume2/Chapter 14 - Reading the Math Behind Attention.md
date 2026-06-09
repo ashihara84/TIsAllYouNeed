@@ -380,3 +380,11 @@ out = weights @ v
 Attention weightは、Valueそのものではありません。Attention weightは、Valueをどの割合で混ぜるかを決める重みです。また、causal maskはValueを消すのではなく、softmax前のscoreを `-inf` にして未来位置の重みを0にします。
 
 この章を理解すると、Transformerの中心部分であるSelf-Attentionの数式が読めるようになります。次章では、ここまで学んだ数学を使って、PyTorchで小さなAttention計算をさらに実装として確認します。数式を読むだけでなく、実際にテンソルを作り、shapeを追いながらAttentionがどのように動くかを確かめます。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第13章 正規化](Chapter%2013%20-%20Normalization.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第15章 実装で確認する数学 →](Chapter%2015%20-%20Verifying%20the%20Math%20Through%20Implementation.md)
+
+<!-- chapter-nav:end -->

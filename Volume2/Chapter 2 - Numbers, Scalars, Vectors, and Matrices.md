@@ -278,3 +278,11 @@ out:     [batch_size, seq_len, d_model]
 この章の段階では、Attentionの意味を完全に理解する必要はありません。まずは、Transformerではデータがテンソルとして流れていき、そのshapeを追うことが大事だと理解できれば十分です。
 
 次章では、ベクトルについてもう少し詳しく見ていきます。ベクトルは単なる数の並びではなく、単語やトークンの意味を表すための基本単位になります。ベクトルの足し算、スカラー倍、長さ、距離といった基本を理解することが、embeddingやAttentionを理解する土台になります。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章 なぜTransformerに数学が必要なのか](Chapter%201%20-%20Why%20Does%20a%20Transformer%20Need%20Mathematics.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章 ベクトルの基本 →](Chapter%203%20-%20Vector%20Basics.md)
+
+<!-- chapter-nav:end -->

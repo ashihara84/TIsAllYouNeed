@@ -279,3 +279,11 @@ LayerNorm(...)         … 値のスケールを整える（本章）
 - 例：`[10,20,30,40]` は平均25・標準偏差11.18で割って `[-1.34,...,1.34]` に。1本の中だけで完結する。
 - バッチの他データに依存せず1本ずつ完結するため、系列を扱う Transformer と相性がよい。
 - 残差接続と組み合わせると `LayerNorm(x + Sublayer(x))` の骨格になる。`Sublayer` の中身は第5巻。Post-LN と Pre-LN の違いも第5巻で。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　残差接続](Chapter%209%20Residual%20Connections.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　学習を安定させる小技 →](Chapter%2011%20Techniques%20for%20Stable%20Training.md)
+
+<!-- chapter-nav:end -->

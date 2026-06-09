@@ -114,3 +114,11 @@ Encoder / Decoder スタック          →  第12章（ブロックを積む）
 - 第5巻の部品と論文の式の対応表を、地図として、各節が何に当たるかを確認しながら読む。
 - 得るべきは「提示順（どう語るか）」と「設計理由（なぜその選択か）」。中身はすでに知っている。
 - 薄く鋭く読む。論文本文（arXiv:1706.03762）を手元に開いて、読み合わせる前提。
+
+---
+
+<!-- chapter-nav:start -->
+
+[目次](Table%20of%20Contents.md) ｜ [第2章　Abstract と Introduction を読む →](Chapter%202%20Reading%20the%20Abstract%20and%20Introduction.md)
+
+<!-- chapter-nav:end -->

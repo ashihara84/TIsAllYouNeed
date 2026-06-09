@@ -127,3 +127,11 @@ KV キャッシュ：
 - top-k（上位 k 個）/ top-p（累積確率 p まで）で候補を絞り、変なトークンを引く事故を減らす。
 - KV キャッシュは、過去トークンの K・V を保存・再利用して、逐次生成の無駄をなくす高速化。
 - いずれも、第5巻で作った Attention の性質から理解できる、推論時の工夫。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章　RLHF：人間のフィードバックで整える](Chapter%208%20RLHF.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章　文脈長とスケーリングの直感 →](Chapter%2010%20Context%20Length%20and%20Scaling.md)
+
+<!-- chapter-nav:end -->

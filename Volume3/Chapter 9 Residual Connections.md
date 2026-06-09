@@ -245,3 +245,11 @@ Attention の中身を、まだ何も知らなくても、「それを残差接�
 - 微分すると必ず「+1」が残る。各層の傾きが `1 + (f の傾き)` になり、勾配が後ろへまっすぐ流れる「バイパス」になる。
 - 実装は `x + f(x)`。足せるよう、入出力の次元をそろえる（Transformer が `d_model` を保つ理由）。
 - 論文の `x + Sublayer(x)` は、この `x + f(x)` の `f` を Attention/FFN に置き換えたもの。骨格はもう手にしている。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章　ミニ MLP を最後まで学習させ切る](Chapter%208%20Training%20a%20Mini%20MLP%20End%20to%20End.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章　Layer Normalization →](Chapter%2010%20Layer%20Normalization.md)
+
+<!-- chapter-nav:end -->

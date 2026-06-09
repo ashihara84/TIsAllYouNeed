@@ -159,3 +159,11 @@ print(ffn(x).shape)   # torch.Size([2, 5, 16])
 - FFN の正体は、位置ごとに独立に・同じ重みで適用する2層 MLP（第3巻の回収）。
 - 中間で次元を広げて戻す（定番は `d_ff = 4 × d_model`、例：512→2048→512）。入出力は `d_model` でそろう。
 - `nn.Linear` は最後の次元にだけ作用するので、位置ごと独立が、ループなしで自動で実現される。出力 shape は不変。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　位置エンコーディングを書く](Chapter%209%20Implementing%20Positional%20Encoding.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　残差接続と LayerNorm で部品を包む →](Chapter%2011%20Wrapping%20with%20Residual%20and%20LayerNorm.md)
+
+<!-- chapter-nav:end -->

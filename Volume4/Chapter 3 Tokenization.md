@@ -217,3 +217,11 @@ print(ids)      # [1, 0, 2, 3] のような整数列
 - 語彙はモデルが知るトークンの集合。語彙外は未知語になる。サブワードはこれを和らげる。
 - サブワード（BPE）は「頻出するまとまりを1トークンにしていく」ことで、語彙サイズと未知語のバランスを取る。
 - 文章はトークン化を経て、整数（ID）の列になる。詳細なトークナイザは第8巻。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章　言語をどう数にするか](Chapter%202%20Turning%20Language%20into%20Numbers.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章　語彙と ID →](Chapter%204%20Vocabulary%20and%20IDs.md)
+
+<!-- chapter-nav:end -->

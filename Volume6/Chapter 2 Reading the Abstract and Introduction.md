@@ -97,3 +97,11 @@ RNN（特に LSTM）を Encoder–Decoder にした構造が、主流でした�
 - 「Attention だけで足りる」理由は、第4巻11章で語れる（長距離・勾配・並列）。
 - 当時の文脈：RNN/LSTM が主役で、Attention は脇役だった。この論文はそれを逆転させた。
 - CNN による並列化の試みもあったが、長距離依存に弱かった。Transformer はそこも解く。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章　この巻の読み方](Chapter%201%20How%20to%20Read%20This%20Volume.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章　Model Architecture：全体図を自分の言葉で →](Chapter%203%20Model%20Architecture%20in%20Your%20Own%20Words.md)
+
+<!-- chapter-nav:end -->

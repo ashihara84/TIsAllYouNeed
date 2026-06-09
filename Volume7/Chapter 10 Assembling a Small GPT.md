@@ -148,3 +148,11 @@ GPT という名前ですが、これは数万〜十数万パラメータの、�
 - 出力は各位置のロジット `[B, L, vocab_size]`。次の文字の分布のもと（第4巻7章）。
 - 損失は `logits` と `targets` を `[B*L, ...]` に平らにして cross_entropy で計算する（例：`[4,8,50]`→`[32,50]`）。
 - 構造は本物の GPT と本質的に同じ。違うのは規模だけ（第8巻で回収）。次章で学習させる。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　Transformer ブロックを組む](Chapter%209%20Building%20the%20Transformer%20Block.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　学習ループを書く →](Chapter%2011%20Writing%20the%20Training%20Loop.md)
+
+<!-- chapter-nav:end -->

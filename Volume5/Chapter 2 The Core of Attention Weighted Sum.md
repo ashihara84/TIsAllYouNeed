@@ -160,3 +160,11 @@ print(out.shape)   # torch.Size([4])
 - 例：スコア `[3,1,0.2]` → 重み `[0.78,0.11,0.11]`。重み `[0.7,0.2,0.1]` での重み付き和は手計算でも追える。
 - 実装は `w @ V`（重み付き和）と `softmax(scores)`（重みの作成）。これが核。
 - この先は、この核に「スコアの作り方」「self」「mask」「multi-head」を足していくだけ。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章　この巻の地図と教え方の順番](Chapter%201%20Map%20and%20Teaching%20Order.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章　Q / K / V という役割分担 →](Chapter%203%20The%20Roles%20of%20Q%20K%20V.md)
+
+<!-- chapter-nav:end -->

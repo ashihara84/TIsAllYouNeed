@@ -137,3 +137,11 @@ GPT 系     : Decoder のみ（次トークン予測に特化）
 - GPT 系は Encoder を削り、Decoder だけで次トークン予測に特化した（第7巻で作った形）。
 - 規模は桁違いに大きくなったが、具体的な数値より「大きくした」事実と「なぜ効くか」が大切。違いは質でなく量。
 - 学習の目的は、元論文も現代も「次トークン予測」で同じ。知っている原理を、巨大にしただけ。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第1章　この巻の地図](Chapter%201%20Map%20of%20This%20Volume.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第3章　Decoder-only という選択（GPT 系） →](Chapter%203%20The%20Decoder-Only%20Choice.md)
+
+<!-- chapter-nav:end -->

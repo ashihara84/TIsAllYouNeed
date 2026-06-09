@@ -132,3 +132,11 @@ with torch.no_grad():
 - `requires_grad=True` の演算は計算グラフに記録され、`backward()` で勾配が求まる（`w²+2w` の例で確認）。`.grad` に入る。
 - 勾配は加算されるので、毎ステップ `zero_grad()` で消す。
 - 推論・生成では `torch.no_grad()` でグラフ記録を止める。`detach()` はグラフからの切り離し。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章　同じネットを PyTorch で書き直す](Chapter%203%20Rewriting%20in%20PyTorch.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章　nn.Module で部品を書く →](Chapter%205%20Writing%20Parts%20as%20nn%20Module.md)
+
+<!-- chapter-nav:end -->

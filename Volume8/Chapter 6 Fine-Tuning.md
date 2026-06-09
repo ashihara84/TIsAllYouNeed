@@ -130,3 +130,11 @@ LoRA のような軽量手法は、
 - 中身は「forward → loss → backward → step」で、第3巻・第7巻の学習ループと同じ。出発点が賢いだけ（八合目から登る）。
 - 全パラメータ更新は高効果・高コスト。LoRA などの軽量手法は、小さな差分だけ学習して低コストに。
 - 「事前学習＋fine-tuning」の2段構えが、少ないデータ・計算で用途に合わせられる強み。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章　トークナイザの現実](Chapter%205%20Tokenizers%20in%20Practice.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章　指示チューニング（instruction tuning） →](Chapter%207%20Instruction%20Tuning.md)
+
+<!-- chapter-nav:end -->

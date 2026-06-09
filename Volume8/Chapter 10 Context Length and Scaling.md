@@ -124,3 +124,11 @@ L個のトークンの、全ペアなので、`L × L = L²` 個。
 - 伸ばすのが難しいのは、Self-Attention の計算量・メモリが系列長の2乗に比例するから（第6巻8章。2倍で4倍、10倍で100倍）。
 - 長文脈化の工夫は、効率的な Attention・位置表現の改良・メモリ効率の良い実装など。第5巻・第6巻の制約に取り組むもの。
 - 「長く入れられる」と「長く入れてもちゃんと効く」は別問題。両方が研究の焦点。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第9章　推論時の工夫](Chapter%209%20Inference-Time%20Techniques.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第11章　いま君が触っている GPT の地図 →](Chapter%2011%20A%20Map%20of%20the%20GPT%20You%20Use.md)
+
+<!-- chapter-nav:end -->

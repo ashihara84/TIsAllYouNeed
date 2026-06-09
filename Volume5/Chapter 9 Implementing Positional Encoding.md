@@ -134,3 +134,11 @@ sin/cos と違って学習しますが、`max_len`（ここでは512）を超え
 - 偶数次元に sin、奇数次元に cos を入れる。`pe[pos]` が、位置ごとの「指紋」。
 - トークンの embedding に足す（shape が同じなので、そのまま `x + pe`）。これで Attention が順序を扱える。
 - 学習する位置埋め込みは `nn.Embedding` を位置に使うだけ。柔軟だが `max_len` まで。第7巻ではこちらを使う。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章　位置エンコーディング](Chapter%208%20Positional%20Encoding.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章　Feed-Forward Network（FFN） →](Chapter%2010%20Feed-Forward%20Network.md)
+
+<!-- chapter-nav:end -->

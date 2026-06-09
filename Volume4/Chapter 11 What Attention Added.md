@@ -211,3 +211,11 @@ Attention は、内積で相性を測り、重み付き和で混ぜるだけで�
 - 全トークン対の相性は1回の行列積で並列に計算できる。RNN の逐次性の問題を解消する。
 - RNN の3つの辛さ（長距離・勾配・逐次）に、Attention はそれぞれ直接応える。
 - 残る課題は順序の情報。これは第5巻の位置エンコーディングで補う。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第10章　RNN は何が辛いのか](Chapter%2010%20Why%20RNNs%20Are%20Hard.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第12章　まとめ：5巻への橋 →](Chapter%2012%20Summary.md)
+
+<!-- chapter-nav:end -->

@@ -132,3 +132,11 @@ RNN は、Attention の良さを引き立てる「当て馬」として、直感
 - この巻の出口は、tokenization・embedding・言語モデルの理解と、「RNN の辛さと Attention が足したもの」を語れること。
 - RNN は実装せず、Attention の動機づけのための比較対象として、直感だけをつかむ。
 - Attention の実装は第5巻、Transformer の統合は第7巻、現代のトークナイザの詳細は第8巻。
+
+---
+
+<!-- chapter-nav:start -->
+
+[目次](Table%20of%20Contents.md) ｜ [第2章　言語をどう数にするか →](Chapter%202%20Turning%20Language%20into%20Numbers.md)
+
+<!-- chapter-nav:end -->

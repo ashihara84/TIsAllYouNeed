@@ -256,3 +256,11 @@ shape の変化を、丁寧に追いましょう。
 - 順伝播とは、入力を層に通して、shape を変えながら前へ計算していくこと。それだけ。
 - バッチを使うと入力は `[batch_size, in_features]` になり、先頭のバッチ次元は層を通しても保たれる。
 - 各データは独立に、同じ重みで変換される。「shape を追う」習慣は、後の巻で Attention を読むときの土台になる。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第2章　線形モデルから多層へ](Chapter%202%20From%20Linear%20Models%20to%20Multiple%20Layers.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第4章　活性化関数 →](Chapter%204%20Activation%20Functions.md)
+
+<!-- chapter-nav:end -->

@@ -278,3 +278,11 @@ PyTorchの自動微分は、このbackpropagationを自動で行ってくれる
 ```
 
 次章では、正規化について学びます。Transformerでは Layer Normalization が非常に重要です。深いネットワークでは値のスケールが大きすぎたり小さすぎたりすると学習が不安定になります。正規化は、値のスケールを整え、学習を安定させるための重要な道具です。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第11章 勾配降下法](Chapter%2011%20-%20Gradient%20Descent.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第13章 正規化 →](Chapter%2013%20-%20Normalization.md)
+
+<!-- chapter-nav:end -->

@@ -184,3 +184,11 @@ print(decode(ids))    # ['<bos>', '犬', 'が', '走る', '。', '<eos>']
 - 文章はトークン化と ID 付与を経て、整数の列になる。これが言語モデルの入力。
 - ID 自体に意味はない。意味は次章の embedding で与えられる。ID は「何行目を引くか」を指す住所。
 - 特殊トークン（`<bos>`・`<eos>`・`<pad>`）は、系列の境界や、バッチ処理のための長さそろえに使う。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第3章　トークン化（tokenization）](Chapter%203%20Tokenization.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第5章　embedding：トークンをベクトルにする →](Chapter%205%20Embeddings.md)
+
+<!-- chapter-nav:end -->

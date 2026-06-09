@@ -100,3 +100,11 @@ Decoder の Self-Attention では、各位置が未来の位置を見ないよ�
 - 内積型 Attention を選んだのは、行列積で高速・並列に計算できるから（第4巻11章の利点）。
 - `sqrt(d_k)` で割る根拠は「内積の分散が d_k に比例するから」。第5巻の実装理由に、統計的裏づけが付く。
 - mask の扱いは、第5巻6章の `masked_fill(..., -inf)`（softmax 前に -inf）と一致する。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第4章　Encoder と Decoder のスタック](Chapter%204%20The%20Encoder%20and%20Decoder%20Stacks.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第6章　Multi-Head Attention の節を読む →](Chapter%206%20Reading%20the%20Multi-Head%20Section.md)
+
+<!-- chapter-nav:end -->

@@ -231,3 +231,11 @@ model.zero_grad()
 - PyTorch の autograd が、`loss.backward()` 一行で全パラメータの勾配を計算してくれる。`weight` と同じ形の勾配が求まる。
 - 勾配は「重みを増やすと損失がどう変わるか」。だから、その逆向きに動かす（更新式が引き算なのはこのため）。
 - 勾配は溜まるので、毎ステップ `zero_grad()` で消す（次章の学習ループで使う）。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第5章　出力層と損失](Chapter%205%20Output%20Layers%20and%20Loss.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第7章　勾配降下で学習させる →](Chapter%207%20Training%20with%20Gradient%20Descent.md)
+
+<!-- chapter-nav:end -->

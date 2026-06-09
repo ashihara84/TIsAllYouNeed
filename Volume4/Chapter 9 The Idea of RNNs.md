@@ -172,3 +172,11 @@ LSTM/GRU は、素朴な RNN よりずっと長い文脈を扱えるようにな
 - 時間方向に展開すると、系列長と同じ深さの、非常に深いネットワークになる（勾配の問題の根っこ）。
 - LSTM / GRU はゲートで「保つ／忘れる」を調整し、長い文脈を扱いやすくした改良版。
 - 仕組みの直感だけをつかめばよい。実装はしない。次章で、RNN の「辛さ」へ進む。
+
+---
+
+<!-- chapter-nav:start -->
+
+[← 第8章　n-gram からニューラル言語モデルへ](Chapter%208%20From%20N-grams%20to%20Neural%20Language%20Models.md) ｜ [目次](Table%20of%20Contents.md) ｜ [第10章　RNN は何が辛いのか →](Chapter%2010%20Why%20RNNs%20Are%20Hard.md)
+
+<!-- chapter-nav:end -->
