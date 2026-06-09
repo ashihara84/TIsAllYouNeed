@@ -5,22 +5,14 @@ Transformer を自分で（PyTorch で）実装できるようになるための
 
 ## 各巻へのリンク
 
-- 第1巻 [機械学習の基礎](Volume1/Table%20of%20Contents.md)（全14章）
-- 第2巻 [数学の基礎](Volume2/Table%20of%20Contents.md)（全16章）
-- 第3巻 [ニューラルネットの基礎](Volume3/Table%20of%20Contents.md)（全12章）
-- 第4巻 [言語をベクトルにする／系列](Volume4/Table%20of%20Contents.md)（全12章）
-- 第5巻 [Transformer の構成要素](Volume5/Table%20of%20Contents.md)（全13章）
-- 第6巻 [『Attention Is All You Need』精読](Volume6/Table%20of%20Contents.md)（全11章）
-- 第7巻 [PyTorch で Transformer を実装](Volume7/Table%20of%20Contents.md)（全14章）
-- 第8巻 [現代の LLM へ](Volume8/Table%20of%20Contents.md)（全12章）
-
-## 読む経路図（読者タイプ別の入口）
-
-- **ML 未経験のエンジニア**：1 → 2 → 3 → 4 → 5 → 6 → 7 → 8（全部）
-- **ML 既習（数学に不安）**：2 から（1 は飛ばす）
-- **ML・数学とも既習**：3 から（1・2 を飛ばす）
-- **論文輪読済みのゼミ生**：3 → 4 → 5 で部品を作り、6 で論文を回収、7 で実装
-- **PyTorch だけ読みたい人**：7 へ。素手パート（7巻2章）は対比のため冒頭だけ眺める
+- 第1巻 [機械学習の基礎](Volume1/Table%20of%20Contents.md)（全14章）— *Learning Is All You Need*
+- 第2巻 [数学の基礎](Volume2/Table%20of%20Contents.md)（全16章）— *Math Is All You Need*
+- 第3巻 [ニューラルネットの基礎](Volume3/Table%20of%20Contents.md)（全12章）— *Layers Are All You Need*
+- 第4巻 [言語をベクトルにする／系列](Volume4/Table%20of%20Contents.md)（全12章）— *Tokens Are All You Need*
+- 第5巻 [Transformer の構成要素](Volume5/Table%20of%20Contents.md)（全13章）— *Heads Are All You Need*
+- 第6巻 [『Attention Is All You Need』精読](Volume6/Table%20of%20Contents.md)（全11章）— **Attention Is All You Need**
+- 第7巻 [PyTorch で Transformer を実装](Volume7/Table%20of%20Contents.md)（全14章）— *Code Is All You Need*
+- 第8巻 [現代の LLM へ](Volume8/Table%20of%20Contents.md)（全12章）— *Scale Is All You Need*
 
 ## 各巻の入口と出口
 
